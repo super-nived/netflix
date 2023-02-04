@@ -1,0 +1,134 @@
+.banner_main{
+    display: grid;
+    align-items: center;
+    position: relative;
+    padding-top: 10rem;
+    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    background-repeat: no-repeat;
+    background-attachment:relative;
+    background-size: 100% 100%;
+    
+}
+
+.banner{
+    
+    display:flex;
+    height:50vh;
+    width: 100vw;
+
+}
+
+
+
+.right{ 
+
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:center;
+    
+}
+.title{
+    padding: 1rem;
+    color :white;
+
+    
+}
+ h1{
+    font-weight:900;
+    font-size:3rem;
+    font-style: oblique;
+    color: rgb(239, 190, 190);
+}
+span{
+    color: white;
+    padding: 1rem;
+}
+.banner .category{
+    margin:0 1rem;
+    display: flex;
+    overflow: scroll;
+    width: 60%;
+    gap:1rem;
+   
+}
+.banner .para{
+    padding: 1rem;
+    width: 50%;
+}
+.banner .category p{
+    padding: 0.5rem 1rem;
+    background-color:rgba(78, 142, 84, 0.5);
+    border-radius: 0.5rem;
+}
+.banner .category p:hover{
+    background-color:rgba(14, 192, 32, 0.5)
+}
+.buttons{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    border:none;
+}
+.buttons a{
+    color: white;
+    z-index: 5;
+    
+}
+button{
+    background-color: rgba(51,51,51, 0.5);
+    border: none;
+    outline:none;
+    font-weight: 700;
+    padding:1rem 2rem;
+    border-radius: 0.4rem;
+    color:white;
+    z-index: 4;
+}
+.content{
+    padding: 1rem;
+    color: white;
+    font-style: oblique;
+}
+.fade{
+ 
+    height: 100PX;
+    color:rgb(37,37,37);
+    margin-top: -100px;
+    background-image: linear-gradient(180deg,transparent,rgb(37,37,37,.61),#111)
+}
+
+@media (max-width:750px) {
+     .banner{
+        height: 200px;
+     }
+     h1{
+        width: 100%;
+        font-size:1rem;
+        color:white;
+    }
+
+    .right{
+        width: 90%;
+    }
+    .banner .category{
+        margin:0 1rem;
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+        gap:0.5rem;
+        
+    }
+    .banner .para{
+        display: none;
+    }
+    .banner .category p{
+        padding: 0.1rem 0.5rem;
+        background-color:rgba(78, 142, 84, 0.5);
+    }
+
+    
+}

@@ -1,0 +1,95 @@
+.main{
+    display:grid;
+    align-items: start;
+    margin: 0;
+
+}
+.main h3{
+    margin: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.posters{
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    gap:1rem;
+    
+}
+.posters::-webkit-scrollbar{
+    display:none;
+}
+
+.poster{
+    
+   height:150px;
+   width: 10rem;
+   
+  
+}
+.poster img{
+    z-index: 4;
+}
+.poster:hover{
+    transform: scale(1.2);
+    display: block;
+
+
+
+}
+.Div_youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100vw;
+    margin-bottom: 0.7rem;
+ 
+}
+.youtube{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+.span{
+    display: block;
+}
+@media (max-width:750px) {
+    .poster{
+    
+        height:80px;
+        width: 7rem;
+        
+        }
+        .posters{
+            display: flex;
+            overflow-x:scroll;
+            overflow-y: hidden;
+            gap:0.1rem;
+            
+        }
+
+        .main h3{
+            font-size: 0.9rem;
+            margin: 0 0.5rem;
+            color: white;
+            text-align: start;
+        }
+        .sposter:hover{
+            transform: scale(1.2);
+            margin: 2rem;
+            display: block;
+        
+        
+        
+        }
+
+        .Div_youtube button {
+            background-color: transparent;
+         }
+        
+}
+

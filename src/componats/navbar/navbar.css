@@ -1,0 +1,64 @@
+
+.nav_main{
+  
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100vw;
+    height: 5rem;
+    background-color:transparent;
+    position: absolute;
+    z-index: 1;
+    
+}
+.avatar{
+    overflow: hidden;
+}
+.logo{
+    overflow: hidden;
+    height: 100%;
+    width: 20%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    
+
+}
+.avtar{
+    padding: 1rem;
+    overflow: hidden;
+    height: 100%;
+    width: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+img{
+   width: 90%;
+}
+.avtar img {
+    padding: 2rem;
+    
+}
+
+@media (max-width:750px) {
+    .avtar img {
+        padding:0.5rem;
+        height: 100%;
+       
+        
+    } 
+    .navbar{
+        height: 4rem;
+    }
+    .logo{
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    }
+
